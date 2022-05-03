@@ -112,9 +112,9 @@ You found the correct password. Secret message is:
 
 ## Exercise 1.7: Two line Dockerfile
 
-[Dockerfile](/1.7/Dockerfile)
+[Dockerfile](/Part 1/1.7/Dockerfile)
 ```bash
-docker run web-server
+> docker run web-server
 [GIN-debug] [WARNING] Creating an Engine instance with the Logger and Recovery middleware already attached.
 
 [GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
