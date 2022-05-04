@@ -127,4 +127,4 @@ You found the correct password. Secret message is:
 
 ## Exercise 1.8: Image for script
 
-
+[Dockerfile](./1.8/Dockerfile)
