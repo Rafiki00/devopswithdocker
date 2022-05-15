@@ -128,3 +128,11 @@ You found the correct password. Secret message is:
 ## Exercise 1.8: Image for script
 
 [Dockerfile](./1.8/Dockerfile)
+
+
+## Exercise 1.9: Volumes
+
+```bash
+docker run -d -it -v "C:\Users\Rafa9\OneDrive\Escritorio\devops\text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service:alpine
+```
+
