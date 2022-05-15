@@ -136,3 +136,8 @@ You found the correct password. Secret message is:
 docker run -d -it -v "C:\Users\Rafa9\OneDrive\Escritorio\devops\text.log:/usr/src/app/text.log" devopsdockeruh/simple-web-service:alpine
 ```
 
+## Exercise 1.10: Ports open
+
+```bash
+docker run -d -it -p 8080:8080 devopsdockeruh/simple-web-service:alpine server
+```
