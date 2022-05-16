@@ -141,3 +141,8 @@ docker run -d -it -v "C:\Users\Rafa9\OneDrive\Escritorio\devops\text.log:/usr/sr
 ```bash
 docker run -d -it -p 8080:8080 devopsdockeruh/simple-web-service:alpine server
 ```
+
+## Exercise 1.11: Spring
+
+[Dockerfile](./1.11/Dockerfile)
+
