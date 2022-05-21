@@ -147,15 +147,30 @@ docker run -d -it -p 8080:8080 devopsdockeruh/simple-web-service:alpine server
 [Dockerfile](./1.11/Dockerfile)
 
 
-## Exercise 1.12: Spring
+## Exercise 1.12: Hello, frontend!
 
 [Dockerfile](./1.12/Dockerfile)
 
 
-## Exercise 1.13
+## Exercise 1.13 Hello, backend!
 
 ```bash
 docker build . -t example-backend
 docker run -p 8080:8080 example-backend
 ```
 [Dockerfile](./1.13/Dockerfile)
+
+
+## Exercise 1.14 Environment
+
+```bash
+docker build . -t example-frontend
+docker run -p 5000:5000 example-frontend
+```
+[Dockerfile](./1.14/Frontend/Dockerfile)
+
+```bash
+docker build . -t example-backend
+docker run -p 8080:8080 example-backend
+```
+[Dockerfile](./1.14/Backend/Dockerfile)
