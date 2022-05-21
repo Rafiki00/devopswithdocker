@@ -151,4 +151,11 @@ docker run -d -it -p 8080:8080 devopsdockeruh/simple-web-service:alpine server
 
 [Dockerfile](./1.12/Dockerfile)
 
+
 ## Exercise 1.13
+
+```bash
+docker build . -t example-backend
+docker run -p 8080:8080 example-backend
+```
+[Dockerfile](./1.13/Dockerfile)
